@@ -1,0 +1,87 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.titulo {
+  color: red;
+}
+
+.logo {
+  width: 200px;
+  height: 100px;
+}
+
+h1 {
+  font-family: "Sixtyfour Convergence", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0,
+    "XELA" 0,
+    "YELA" 0;
+}
+
+p {
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.video {
+  width: 500px;
+  height: 300px;
+  border: 5px solid rgb(0, 255, 238);
+}
+
+.video1 {
+  width: 500px;
+  height: 300px;
+  border: 5px solid rgb(0, 255, 238);
+}
+
+h2 {
+  color: crimson;
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+@media (max-width: 768px) {
+
+  /* Estilos para pantallas de hasta 768px */
+  body {
+    font-size: 16px;
+  }
+
+  .container {
+    width: 100%;
+  }
+}
+
+.img1 {
+  width: 500px;
+  height: 300px;
+  border: 5px solid rgb(255, 255, 0);
+}
+hr{
+  border: 3px solid rgb(4, 0, 255);
+}
+.img2{
+  width: 500px;
+  height: 300px;
+  border: 5px solid rgb(4, 116, 32); 
+}
+.img3{
+  width: 500px;
+  height: 300px;
+  border: 5px solid rgb(74, 4, 106);  
+}
